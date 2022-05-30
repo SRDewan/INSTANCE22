@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.14.0-1038-oem-x86_64-with-glibc2.31",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-05-29T15:02:37.346076",
+    "startedAt": "2022-05-29T15:02:34.673006",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "UNet.ipynb",
+    "root": "/home/srd/Desktop/CV/INSTANCE22",
+    "git": {
+        "remote": "https://github.com/SRDewan/INSTANCE22.git",
+        "commit": "5674f16f3880ed914fbc121284b321d9270d961d"
+    },
+    "email": null,
+    "host": "SRDewan",
+    "username": "srd",
+    "executable": "/home/srd/anaconda3/envs/instance22/bin/python"
+}

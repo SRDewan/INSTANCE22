@@ -1,0 +1,292 @@
+MONAI version: 0.9.0rc1+19.g61a0dc35
+Numpy version: 1.22.4
+Pytorch version: 1.11.0+cu102
+MONAI flags: HAS_EXT = False, USE_COMPILED = False
+MONAI rev id: 61a0dc35b8a5edf78487b30c02c7aa0e51fc3409
+MONAI __file__: /home/srd/MONAI/monai/__init__.py
+Optional dependencies:
+Pytorch Ignite version: 0.4.8
+Nibabel version: 3.2.2
+scikit-image version: 0.19.2
+Pillow version: 9.1.1
+Tensorboard version: 2.9.0
+gdown version: 4.4.0
+TorchVision version: 0.12.0+cu102
+tqdm version: 4.64.0
+lmdb version: 1.3.0
+psutil version: 5.9.1
+pandas version: 1.4.2
+einops version: 0.4.1
+transformers version: 4.19.2
+mlflow version: 1.26.1
+pynrrd version: 0.4.3
+For details about installing the optional dependencies, please visit:
+    https://docs.monai.io/en/latest/installation.html#installing-the-recommended-dependencies
+./results
+()
+Original Scan Shape = torch.Size([143, 137, 74]),
+Segmented Scan Shape: torch.Size([143, 137, 74])
+()
+Original Scan Shape = torch.Size([143, 137, 74]),
+Segmented Scan Shape: torch.Size([143, 137, 74])
+wandb: Network error (ConnectionError), entering retry loop.
+
+
+
+
+
+
+
+
+
+
+
+Loading dataset: 100%|██████████████████████████| 91/91 [00:23<00:00,  3.87it/s]
+
+Loading dataset: 100%|████████████████████████████| 9/9 [00:02<00:00,  3.36it/s]
+<monai.transforms.compose.Compose object at 0x7ff9ad7fa9a0>
+91
+() <built-in method keys of dict object at 0x7ff92023a940> torch.Size([1, 1, 143, 137, 74])
+Original Scan Shape = torch.Size([143, 137, 74]),
+Segmented Scan Shape: torch.Size([143, 137, 74])
+Original Scan Shape = torch.Size([143, 137, 74]),
+Segmented Scan Shape: torch.Size([143, 137, 74])
+Original Scan Shape = torch.Size([143, 137, 74]),
+Segmented Scan Shape: torch.Size([143, 137, 74])
+[0. 1.]
+Original Scan Shape = torch.Size([100, 100, 50]),
+Segmented Scan Shape: torch.Size([100, 100, 50])
+[0.]
+Original Scan Shape = torch.Size([100, 100, 50]),
+Segmented Scan Shape: torch.Size([100, 100, 50])
+[0.]
+Original Scan Shape = torch.Size([100, 100, 50]),
+Segmented Scan Shape: torch.Size([100, 100, 50])
+[0.]
+N foreground 47, N  background 0,unable to generate class balanced samples.
+Original Scan Shape = torch.Size([100, 100, 50]),
+Segmented Scan Shape: torch.Size([100, 100, 50])
+[0.]
+Original Scan Shape = torch.Size([100, 100, 50]),
+Segmented Scan Shape: torch.Size([100, 100, 50])
+[0.]
+Original Scan Shape = torch.Size([100, 100, 50]),
+Segmented Scan Shape: torch.Size([100, 100, 50])
+[0.]
+Original Scan Shape = torch.Size([100, 100, 50]),
+Segmented Scan Shape: torch.Size([100, 100, 50])
+[0.]
+Original Scan Shape = torch.Size([100, 100, 50]),
+Segmented Scan Shape: torch.Size([100, 100, 50])
+[0.]
+Original Scan Shape = torch.Size([100, 100, 50]),
+Segmented Scan Shape: torch.Size([100, 100, 50])
+[0.]
+Original Scan Shape = torch.Size([143, 125, 71]),
+Segmented Scan Shape: torch.Size([143, 125, 71])
+[0.]
+Original Scan Shape = torch.Size([143, 125, 71]),
+Segmented Scan Shape: torch.Size([143, 125, 71])
+[0.]
+Original Scan Shape = torch.Size([143, 125, 71]),
+Segmented Scan Shape: torch.Size([143, 125, 71])
+[0.]
+Original Scan Shape = torch.Size([143, 137, 74]),
+Segmented Scan Shape: torch.Size([143, 137, 74])
+[0. 1.]
+Original Scan Shape = torch.Size([143, 125, 71]),
+Segmented Scan Shape: torch.Size([143, 125, 71])
+[0.]
+Original Scan Shape = torch.Size([143, 151, 68]),
+Segmented Scan Shape: torch.Size([143, 151, 68])
+[0.]
+[{'image': './data/train/data/001.nii.gz', 'label': './data/train/label/001.nii.gz'}, {'image': './data/train/data/002.nii.gz', 'label': './data/train/label/002.nii.gz'}, {'image': './data/train/data/003.nii.gz', 'label': './data/train/label/003.nii.gz'}, {'image': './data/train/data/004.nii.gz', 'label': './data/train/label/004.nii.gz'}, {'image': './data/train/data/005.nii.gz', 'label': './data/train/label/005.nii.gz'}, {'image': './data/train/data/006.nii.gz', 'label': './data/train/label/006.nii.gz'}, {'image': './data/train/data/007.nii.gz', 'label': './data/train/label/007.nii.gz'}, {'image': './data/train/data/008.nii.gz', 'label': './data/train/label/008.nii.gz'}, {'image': './data/train/data/009.nii.gz', 'label': './data/train/label/009.nii.gz'}, {'image': './data/train/data/010.nii.gz', 'label': './data/train/label/010.nii.gz'}, {'image': './data/train/data/011.nii.gz', 'label': './data/train/label/011.nii.gz'}, {'image': './data/train/data/012.nii.gz', 'label': './data/train/label/012.nii.gz'}, {'image': './data/train/data/013.nii.gz', 'label': './data/train/label/013.nii.gz'}, {'image': './data/train/data/014.nii.gz', 'label': './data/train/label/014.nii.gz'}, {'image': './data/train/data/015.nii.gz', 'label': './data/train/label/015.nii.gz'}, {'image': './data/train/data/016.nii.gz', 'label': './data/train/label/016.nii.gz'}, {'image': './data/train/data/017.nii.gz', 'label': './data/train/label/017.nii.gz'}, {'image': './data/train/data/018.nii.gz', 'label': './data/train/label/018.nii.gz'}, {'image': './data/train/data/019.nii.gz', 'label': './data/train/label/019.nii.gz'}, {'image': './data/train/data/020.nii.gz', 'label': './data/train/label/020.nii.gz'}, {'image': './data/train/data/021.nii.gz', 'label': './data/train/label/021.nii.gz'}, {'image': './data/train/data/022.nii.gz', 'label': './data/train/label/022.nii.gz'}, {'image': './data/train/data/023.nii.gz', 'label': './data/train/label/023.nii.gz'}, {'image': './data/train/data/024.nii.gz', 'label': './data/train/label/024.nii.gz'}, {'image': './data/train/data/025.nii.gz', 'label': './data/train/label/025.nii.gz'}, {'image': './data/train/data/026.nii.gz', 'label': './data/train/label/026.nii.gz'}, {'image': './data/train/data/027.nii.gz', 'label': './data/train/label/027.nii.gz'}, {'image': './data/train/data/028.nii.gz', 'label': './data/train/label/028.nii.gz'}, {'image': './data/train/data/029.nii.gz', 'label': './data/train/label/029.nii.gz'}, {'image': './data/train/data/030.nii.gz', 'label': './data/train/label/030.nii.gz'}, {'image': './data/train/data/031.nii.gz', 'label': './data/train/label/031.nii.gz'}, {'image': './data/train/data/032.nii.gz', 'label': './data/train/label/032.nii.gz'}, {'image': './data/train/data/033.nii.gz', 'label': './data/train/label/033.nii.gz'}, {'image': './data/train/data/034.nii.gz', 'label': './data/train/label/034.nii.gz'}, {'image': './data/train/data/035.nii.gz', 'label': './data/train/label/035.nii.gz'}, {'image': './data/train/data/036.nii.gz', 'label': './data/train/label/036.nii.gz'}, {'image': './data/train/data/037.nii.gz', 'label': './data/train/label/037.nii.gz'}, {'image': './data/train/data/038.nii.gz', 'label': './data/train/label/038.nii.gz'}, {'image': './data/train/data/039.nii.gz', 'label': './data/train/label/039.nii.gz'}, {'image': './data/train/data/040.nii.gz', 'label': './data/train/label/040.nii.gz'}, {'image': './data/train/data/041.nii.gz', 'label': './data/train/label/041.nii.gz'}, {'image': './data/train/data/042.nii.gz', 'label': './data/train/label/042.nii.gz'}, {'image': './data/train/data/043.nii.gz', 'label': './data/train/label/043.nii.gz'}, {'image': './data/train/data/044.nii.gz', 'label': './data/train/label/044.nii.gz'}, {'image': './data/train/data/045.nii.gz', 'label': './data/train/label/045.nii.gz'}, {'image': './data/train/data/046.nii.gz', 'label': './data/train/label/046.nii.gz'}, {'image': './data/train/data/047.nii.gz', 'label': './data/train/label/047.nii.gz'}, {'image': './data/train/data/048.nii.gz', 'label': './data/train/label/048.nii.gz'}, {'image': './data/train/data/049.nii.gz', 'label': './data/train/label/049.nii.gz'}, {'image': './data/train/data/050.nii.gz', 'label': './data/train/label/050.nii.gz'}, {'image': './data/train/data/051.nii.gz', 'label': './data/train/label/051.nii.gz'}, {'image': './data/train/data/052.nii.gz', 'label': './data/train/label/052.nii.gz'}, {'image': './data/train/data/053.nii.gz', 'label': './data/train/label/053.nii.gz'}, {'image': './data/train/data/054.nii.gz', 'label': './data/train/label/054.nii.gz'}, {'image': './data/train/data/055.nii.gz', 'label': './data/train/label/055.nii.gz'}, {'image': './data/train/data/056.nii.gz', 'label': './data/train/label/056.nii.gz'}, {'image': './data/train/data/057.nii.gz', 'label': './data/train/label/057.nii.gz'}, {'image': './data/train/data/058.nii.gz', 'label': './data/train/label/058.nii.gz'}, {'image': './data/train/data/059.nii.gz', 'label': './data/train/label/059.nii.gz'}, {'image': './data/train/data/060.nii.gz', 'label': './data/train/label/060.nii.gz'}, {'image': './data/train/data/061.nii.gz', 'label': './data/train/label/061.nii.gz'}, {'image': './data/train/data/062.nii.gz', 'label': './data/train/label/062.nii.gz'}, {'image': './data/train/data/063.nii.gz', 'label': './data/train/label/063.nii.gz'}, {'image': './data/train/data/064.nii.gz', 'label': './data/train/label/064.nii.gz'}, {'image': './data/train/data/065.nii.gz', 'label': './data/train/label/065.nii.gz'}, {'image': './data/train/data/066.nii.gz', 'label': './data/train/label/066.nii.gz'}, {'image': './data/train/data/067.nii.gz', 'label': './data/train/label/067.nii.gz'}, {'image': './data/train/data/068.nii.gz', 'label': './data/train/label/068.nii.gz'}, {'image': './data/train/data/069.nii.gz', 'label': './data/train/label/069.nii.gz'}, {'image': './data/train/data/070.nii.gz', 'label': './data/train/label/070.nii.gz'}, {'image': './data/train/data/071.nii.gz', 'label': './data/train/label/071.nii.gz'}, {'image': './data/train/data/072.nii.gz', 'label': './data/train/label/072.nii.gz'}, {'image': './data/train/data/073.nii.gz', 'label': './data/train/label/073.nii.gz'}, {'image': './data/train/data/074.nii.gz', 'label': './data/train/label/074.nii.gz'}, {'image': './data/train/data/075.nii.gz', 'label': './data/train/label/075.nii.gz'}, {'image': './data/train/data/076.nii.gz', 'label': './data/train/label/076.nii.gz'}, {'image': './data/train/data/077.nii.gz', 'label': './data/train/label/077.nii.gz'}, {'image': './data/train/data/078.nii.gz', 'label': './data/train/label/078.nii.gz'}, {'image': './data/train/data/079.nii.gz', 'label': './data/train/label/079.nii.gz'}, {'image': './data/train/data/080.nii.gz', 'label': './data/train/label/080.nii.gz'}, {'image': './data/train/data/081.nii.gz', 'label': './data/train/label/081.nii.gz'}, {'image': './data/train/data/082.nii.gz', 'label': './data/train/label/082.nii.gz'}, {'image': './data/train/data/083.nii.gz', 'label': './data/train/label/083.nii.gz'}, {'image': './data/train/data/084.nii.gz', 'label': './data/train/label/084.nii.gz'}, {'image': './data/train/data/085.nii.gz', 'label': './data/train/label/085.nii.gz'}, {'image': './data/train/data/086.nii.gz', 'label': './data/train/label/086.nii.gz'}, {'image': './data/train/data/087.nii.gz', 'label': './data/train/label/087.nii.gz'}, {'image': './data/train/data/088.nii.gz', 'label': './data/train/label/088.nii.gz'}, {'image': './data/train/data/089.nii.gz', 'label': './data/train/label/089.nii.gz'}, {'image': './data/train/data/090.nii.gz', 'label': './data/train/label/090.nii.gz'}, {'image': './data/train/data/091.nii.gz', 'label': './data/train/label/091.nii.gz'}]
+Original Scan Shape = torch.Size([144, 140, 68]),
+Segmented Scan Shape: torch.Size([144, 140, 68])
+[0. 1.]
+Original Scan Shape = torch.Size([143, 147, 74]),
+Segmented Scan Shape: torch.Size([143, 147, 74])
+[0.]
+Original Scan Shape = torch.Size([116, 125, 66]),
+Segmented Scan Shape: torch.Size([116, 125, 66])
+[0. 1.]
+Original Scan Shape = torch.Size([143, 125, 71]),
+Segmented Scan Shape: torch.Size([143, 125, 71])
+[0.]
+Original Scan Shape = torch.Size([143, 125, 71]),
+Segmented Scan Shape: torch.Size([143, 125, 71])
+[0.]
+Original Scan Shape = torch.Size([143, 125, 71]),
+Segmented Scan Shape: torch.Size([143, 125, 71])
+[0. 1.]
+Original Scan Shape = torch.Size([143, 125, 71]),
+Segmented Scan Shape: torch.Size([143, 125, 71])
+[0.]
+Original Scan Shape = torch.Size([143, 125, 71]),
+Segmented Scan Shape: torch.Size([143, 125, 71])
+[0.]
+Original Scan Shape = torch.Size([143, 125, 71]),
+Segmented Scan Shape: torch.Size([143, 125, 71])
+[0.]
+Original Scan Shape = torch.Size([143, 125, 71]),
+Segmented Scan Shape: torch.Size([143, 125, 71])
+[0. 1.]
+Original Scan Shape = torch.Size([143, 125, 71]),
+Segmented Scan Shape: torch.Size([143, 125, 71])
+[0. 1.]
+Original Scan Shape = torch.Size([143, 125, 71]),
+Segmented Scan Shape: torch.Size([143, 125, 71])
+[0. 1.]
+Original Scan Shape = torch.Size([100, 100, 50]),
+Segmented Scan Shape: torch.Size([100, 100, 50])
+[0. 1.]
+Original Scan Shape = torch.Size([100, 100, 50]),
+Segmented Scan Shape: torch.Size([100, 100, 50])
+[0. 1.]
+
+
+
+
+
+
+
+
+
+
+
+
+
+Loading dataset: 100%|██████████████████████████| 91/91 [00:25<00:00,  3.52it/s]
+
+Loading dataset: 100%|████████████████████████████| 9/9 [00:02<00:00,  3.26it/s]
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+HI
+----------
+epoch 1/600
+----------
+epoch 1/500
+1 torch.Size([8, 1, 100, 100, 50])
+2 torch.Size([8, 1, 100, 100, 50])
+3 torch.Size([8, 1, 100, 100, 50])
+4 torch.Size([8, 1, 100, 100, 50])
+5 torch.Size([8, 1, 100, 100, 50])
+6 torch.Size([8, 1, 100, 100, 50])
+7 torch.Size([8, 1, 100, 100, 50])
+8 torch.Size([8, 1, 100, 100, 50])
+9 torch.Size([8, 1, 100, 100, 50])
+10 torch.Size([8, 1, 100, 100, 50])
+11 torch.Size([8, 1, 100, 100, 50])
+12 torch.Size([8, 1, 100, 100, 50])
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/threading.py", line 910, in run
+    self.run()
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 138, in communicate_network_status
+    self._target(*self._args, **self._kwargs)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    resp = self._communicate_network_status(status)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 405, in _communicate_network_status
+    status_response = self._interface.communicate_stop_status()
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 127, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 395, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    resp = self._communicate(req, local=True)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Error in callback <function _WandbInit._resume_backend at 0x7ff9d86c7ee0> (for pre_run_cell):
+----------
+epoch 1/500
+Error in callback <function _WandbInit._pause_backend at 0x7ff9ae0a2dc0> (for post_run_cell):
+Traceback (most recent call last):
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 999, in init
+    run = wi.init()
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 494, in init
+    self._wl._global_run_stack[-1].finish()
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 256, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1678, in finish
+    return self._finish(exit_code, quiet)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1684, in _finish
+    tel.feature.finish = True
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/lib/telemetry.py", line 41, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 577, in _telemetry_callback
+    self._telemetry_flush()
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 588, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 74, in _publish_telemetry
+    self._publish(rec)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface_queue.py", line 49, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Error in callback <function _WandbInit._resume_backend at 0x7ff9d86c7ee0> (for pre_run_cell):
+Problem at: /tmp/ipykernel_35347/2292005633.py 2 <cell line: 2>
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Abnormal program exit
+Error in callback <function _WandbInit._pause_backend at 0x7ff9ae0a2dc0> (for post_run_cell):
+Error in callback <function _WandbInit._resume_backend at 0x7ff9d86c7ee0> (for pre_run_cell):
+Error in callback <function _WandbInit._pause_backend at 0x7ff9ae0a2dc0> (for post_run_cell):
+Error in callback <function _WandbInit._resume_backend at 0x7ff9d86c7ee0> (for pre_run_cell):

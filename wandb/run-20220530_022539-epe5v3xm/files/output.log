@@ -1,0 +1,125 @@
+MONAI version: 0.9.0rc1+19.g61a0dc35
+Numpy version: 1.22.4
+Pytorch version: 1.11.0+cu102
+MONAI flags: HAS_EXT = False, USE_COMPILED = False
+MONAI rev id: 61a0dc35b8a5edf78487b30c02c7aa0e51fc3409
+MONAI __file__: /home/srd/MONAI/monai/__init__.py
+Optional dependencies:
+Pytorch Ignite version: 0.4.8
+Nibabel version: 3.2.2
+scikit-image version: 0.19.2
+Pillow version: 9.1.1
+Tensorboard version: 2.9.0
+gdown version: 4.4.0
+TorchVision version: 0.12.0+cu102
+tqdm version: 4.64.0
+lmdb version: 1.3.0
+psutil version: 5.9.1
+pandas version: 1.4.2
+einops version: 0.4.1
+transformers version: 4.19.2
+mlflow version: 1.26.1
+pynrrd version: 0.4.3
+For details about installing the optional dependencies, please visit:
+    https://docs.monai.io/en/latest/installation.html#installing-the-recommended-dependencies
+./results
+Loading dataset:   0%|                                   | 0/91 [00:00<?, ?it/s]
+Original Scan Shape = torch.Size([100, 100, 50]),
+Segmented Scan Shape: torch.Size([100, 100, 50])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Loading dataset: 100%|██████████████████████████| 91/91 [00:52<00:00,  1.73it/s]
+
+
+
+Loading dataset: 100%|████████████████████████████| 9/9 [00:05<00:00,  1.52it/s]
+----------
+epoch 1/500
+----------
+epoch 1/500
+torch.Size([8, 1, 100, 100, 50])
+----------
+epoch 1/500
+torch.Size([8, 1, 100, 100, 50])
+----------
+epoch 1/500
+torch.Size([8, 1, 100, 100, 50])
+wandb: Network error (ConnectionError), entering retry loop.
+Original Scan Shape = torch.Size([100, 100, 50]),
+Segmented Scan Shape: torch.Size([100, 100, 50])
+[0. 1.]
+
+
+
+
+
+
+
+
+
+
+
+
+Loading dataset: 100%|██████████████████████████| 91/91 [00:25<00:00,  3.58it/s]
+
+Loading dataset: 100%|████████████████████████████| 9/9 [00:02<00:00,  3.59it/s]
+----------
+epoch 1/500
+torch.Size([4, 1, 100, 100, 50])
+----------
+epoch 1/500
+torch.Size([4, 1, 100, 100, 50]) (4, 100, 100, 50)
+torch.Size([4, 100, 100, 50])
+----------
+epoch 1/500
+torch.Size([4, 1, 100, 100, 50]) (4, 100, 100, 50)
+torch.Size([4, 100, 100, 50])
+----------
+epoch 1/500
+torch.Size([4, 1, 100, 100, 50]) (4, 100, 100, 50)
+
+
+
+
+
+
+
+
+
+
+
+Loading dataset: 100%|██████████████████████████| 91/91 [00:23<00:00,  3.85it/s]
+
+Loading dataset: 100%|████████████████████████████| 9/9 [00:02<00:00,  3.59it/s]
+----------
+epoch 1/500
+torch.Size([16, 1, 100, 100, 50]) (16, 100, 100, 50)
+----------
+epoch 1/500
+torch.Size([16, 1, 100, 100, 50]) (16, 100, 100, 50)
+torch.Size([16, 100, 100, 50])
+wandb: Network error (ConnectionError), entering retry loop.
+wandb: Network error (ConnectionError), entering retry loop.
