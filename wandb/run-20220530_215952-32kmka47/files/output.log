@@ -3073,3 +3073,4 @@ epoch time = 85.413675 seconds
 current epoch: 100 current mean dice: 0.4832
 100%|██████████████████████████████████████| 100/100 [2:57:46<00:00, 106.67s/it]wandb: ERROR Summary data exceeds maximum size of 10.4MB. Dropping it.
 100%|██████████████████████████████████████| 100/100 [2:57:46<00:00, 106.67s/it]wandb: ERROR Summary data exceeds maximum size of 10.4MB. Dropping it.
+train completed, best_metric: 0.4875 at epoch: 95

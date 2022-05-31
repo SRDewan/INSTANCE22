@@ -1,0 +1,122 @@
+2022-05-31 15:17:05,067 INFO    MainThread:141573 [internal.py:wandb_internal():90] W&B internal server running at pid: 141573, started at: 2022-05-31 15:17:05.067568
+2022-05-31 15:17:05,069 INFO    WriterThread:141573 [datastore.py:open_for_write():75] open: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/run-2njgy7df.wandb
+2022-05-31 15:17:05,070 DEBUG   SenderThread:141573 [sender.py:send():232] send: header
+2022-05-31 15:17:05,070 DEBUG   SenderThread:141573 [sender.py:send():232] send: run
+2022-05-31 15:17:05,749 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: check_version
+2022-05-31 15:17:05,751 INFO    SenderThread:141573 [dir_watcher.py:__init__():197] watching files in: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files
+2022-05-31 15:17:05,751 INFO    SenderThread:141573 [sender.py:_start_run_threads():811] run started: 2njgy7df with start time 1653990424
+2022-05-31 15:17:05,752 DEBUG   SenderThread:141573 [sender.py:send():232] send: summary
+2022-05-31 15:17:05,752 INFO    SenderThread:141573 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-31 15:17:05,752 DEBUG   SenderThread:141573 [sender.py:send_request():246] send_request: check_version
+2022-05-31 15:17:06,755 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_created():244] file/dir created: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/wandb-summary.json
+2022-05-31 15:17:07,485 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: run_start
+2022-05-31 15:17:07,487 DEBUG   HandlerThread:141573 [meta.py:__init__():35] meta init
+2022-05-31 15:17:07,487 DEBUG   HandlerThread:141573 [meta.py:__init__():49] meta init done
+2022-05-31 15:17:07,487 DEBUG   HandlerThread:141573 [meta.py:probe():209] probe
+2022-05-31 15:17:07,489 DEBUG   HandlerThread:141573 [meta.py:_setup_git():199] setup git
+2022-05-31 15:17:07,502 DEBUG   HandlerThread:141573 [meta.py:_setup_git():206] setup git done
+2022-05-31 15:17:07,502 DEBUG   HandlerThread:141573 [meta.py:_save_pip():53] save pip
+2022-05-31 15:17:07,502 DEBUG   HandlerThread:141573 [meta.py:_save_pip():67] save pip done
+2022-05-31 15:17:07,502 DEBUG   HandlerThread:141573 [meta.py:_save_conda():74] save conda
+2022-05-31 15:17:07,757 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_created():244] file/dir created: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/requirements.txt
+2022-05-31 15:17:07,758 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_created():244] file/dir created: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/conda-environment.yaml
+2022-05-31 15:17:11,335 DEBUG   HandlerThread:141573 [meta.py:_save_conda():84] save conda done
+2022-05-31 15:17:11,335 DEBUG   HandlerThread:141573 [meta.py:probe():247] probe done
+2022-05-31 15:17:11,362 DEBUG   SenderThread:141573 [sender.py:send():232] send: files
+2022-05-31 15:17:11,363 INFO    SenderThread:141573 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-05-31 15:17:11,384 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:17:11,385 DEBUG   SenderThread:141573 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:17:11,402 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:17:11,402 INFO    HandlerThread:141573 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:17:11,503 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:17:11,503 INFO    HandlerThread:141573 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:17:11,504 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:17:11,504 INFO    HandlerThread:141573 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:17:11,506 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:17:11,506 INFO    HandlerThread:141573 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:17:11,506 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:17:11,506 INFO    HandlerThread:141573 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:17:11,508 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:17:11,508 INFO    HandlerThread:141573 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:17:11,508 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:17:11,508 INFO    HandlerThread:141573 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:17:11,510 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:17:11,510 INFO    HandlerThread:141573 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:17:11,510 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:17:11,510 INFO    HandlerThread:141573 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:17:11,511 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:17:11,512 INFO    HandlerThread:141573 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:17:11,512 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:17:11,512 INFO    HandlerThread:141573 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:17:11,514 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:17:11,514 INFO    HandlerThread:141573 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:17:11,661 DEBUG   SenderThread:141573 [sender.py:send():232] send: telemetry
+2022-05-31 15:17:11,661 DEBUG   SenderThread:141573 [sender.py:send():232] send: stats
+2022-05-31 15:17:11,662 DEBUG   SenderThread:141573 [sender.py:send():232] send: stats
+2022-05-31 15:17:11,663 DEBUG   SenderThread:141573 [sender.py:send():232] send: stats
+2022-05-31 15:17:11,663 DEBUG   SenderThread:141573 [sender.py:send():232] send: stats
+2022-05-31 15:17:11,663 DEBUG   SenderThread:141573 [sender.py:send():232] send: stats
+2022-05-31 15:17:11,663 DEBUG   SenderThread:141573 [sender.py:send():232] send: stats
+2022-05-31 15:17:11,758 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/conda-environment.yaml
+2022-05-31 15:17:11,758 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_created():244] file/dir created: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/wandb-metadata.json
+2022-05-31 15:17:11,758 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_created():244] file/dir created: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:12,498 INFO    Thread-11 :141573 [upload_job.py:push():132] Uploaded file /tmp/tmpc9i1199mwandb/pcexvxdl-wandb-metadata.json
+2022-05-31 15:17:13,717 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:17:13,717 INFO    HandlerThread:141573 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:17:13,721 DEBUG   SenderThread:141573 [sender.py:send():232] send: stats
+2022-05-31 15:17:13,724 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:17:13,724 INFO    HandlerThread:141573 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:17:13,759 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:15,770 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:17,772 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:19,773 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:21,774 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:23,777 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:25,779 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:26,663 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:17:26,663 DEBUG   SenderThread:141573 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:17:27,780 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:29,781 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:31,786 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:33,789 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:35,790 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/config.yaml
+2022-05-31 15:17:35,791 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:37,791 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:39,792 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:41,373 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:17:41,373 INFO    HandlerThread:141573 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:17:41,454 DEBUG   SenderThread:141573 [sender.py:send():232] send: stats
+2022-05-31 15:17:41,530 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:17:41,530 INFO    HandlerThread:141573 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:17:41,792 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:41,917 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:17:41,917 INFO    HandlerThread:141573 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:17:41,933 DEBUG   SenderThread:141573 [sender.py:send():232] send: stats
+2022-05-31 15:17:42,037 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:17:42,038 DEBUG   SenderThread:141573 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:17:43,794 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
+2022-05-31 15:17:48,376 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:17:48,376 INFO    HandlerThread:141573 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:17:48,411 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:17:48,411 INFO    HandlerThread:141573 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:17:48,481 DEBUG   SenderThread:141573 [sender.py:send():232] send: stats
+2022-05-31 15:17:50,579 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:17:50,580 INFO    HandlerThread:141573 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:17:50,651 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:17:50,651 INFO    HandlerThread:141573 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:17:50,684 DEBUG   SenderThread:141573 [sender.py:send():232] send: stats
+2022-05-31 15:17:52,998 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:17:52,998 INFO    HandlerThread:141573 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:17:53,658 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:17:53,658 INFO    HandlerThread:141573 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:17:53,704 DEBUG   SenderThread:141573 [sender.py:send():232] send: stats
+2022-05-31 15:17:55,099 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:17:55,099 INFO    HandlerThread:141573 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:17:55,100 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:17:55,100 INFO    HandlerThread:141573 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:17:55,103 DEBUG   SenderThread:141573 [sender.py:send():232] send: stats
+2022-05-31 15:17:57,030 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:17:57,031 INFO    HandlerThread:141573 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:17:57,315 DEBUG   HandlerThread:141573 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:17:57,315 DEBUG   SenderThread:141573 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:17:57,801 INFO    Thread-7  :141573 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_151704-2njgy7df/files/output.log
