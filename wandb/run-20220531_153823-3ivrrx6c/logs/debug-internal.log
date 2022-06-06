@@ -1,0 +1,149 @@
+2022-05-31 15:38:24,521 INFO    MainThread:143840 [internal.py:wandb_internal():90] W&B internal server running at pid: 143840, started at: 2022-05-31 15:38:24.520627
+2022-05-31 15:38:24,524 INFO    WriterThread:143840 [datastore.py:open_for_write():75] open: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/run-3ivrrx6c.wandb
+2022-05-31 15:38:24,527 DEBUG   SenderThread:143840 [sender.py:send():232] send: header
+2022-05-31 15:38:24,527 DEBUG   SenderThread:143840 [sender.py:send():232] send: run
+2022-05-31 15:38:24,864 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: check_version
+2022-05-31 15:38:24,866 INFO    SenderThread:143840 [dir_watcher.py:__init__():197] watching files in: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/files
+2022-05-31 15:38:24,866 INFO    SenderThread:143840 [sender.py:_start_run_threads():811] run started: 3ivrrx6c with start time 1653991703
+2022-05-31 15:38:24,866 DEBUG   SenderThread:143840 [sender.py:send():232] send: summary
+2022-05-31 15:38:24,867 INFO    SenderThread:143840 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-31 15:38:24,867 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: check_version
+2022-05-31 15:38:25,871 INFO    Thread-7  :143840 [dir_watcher.py:_on_file_created():244] file/dir created: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/files/wandb-summary.json
+2022-05-31 15:38:26,476 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: run_start
+2022-05-31 15:38:26,477 DEBUG   HandlerThread:143840 [meta.py:__init__():35] meta init
+2022-05-31 15:38:26,477 DEBUG   HandlerThread:143840 [meta.py:__init__():49] meta init done
+2022-05-31 15:38:26,477 DEBUG   HandlerThread:143840 [meta.py:probe():209] probe
+2022-05-31 15:38:26,477 DEBUG   HandlerThread:143840 [meta.py:_setup_git():199] setup git
+2022-05-31 15:38:26,488 DEBUG   HandlerThread:143840 [meta.py:_setup_git():206] setup git done
+2022-05-31 15:38:26,489 DEBUG   HandlerThread:143840 [meta.py:_save_pip():53] save pip
+2022-05-31 15:38:26,490 DEBUG   HandlerThread:143840 [meta.py:_save_pip():67] save pip done
+2022-05-31 15:38:26,490 DEBUG   HandlerThread:143840 [meta.py:_save_conda():74] save conda
+2022-05-31 15:38:26,867 INFO    Thread-7  :143840 [dir_watcher.py:_on_file_created():244] file/dir created: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/files/requirements.txt
+2022-05-31 15:38:26,869 INFO    Thread-7  :143840 [dir_watcher.py:_on_file_created():244] file/dir created: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/files/conda-environment.yaml
+2022-05-31 15:38:30,716 DEBUG   HandlerThread:143840 [meta.py:_save_conda():84] save conda done
+2022-05-31 15:38:30,716 DEBUG   HandlerThread:143840 [meta.py:probe():247] probe done
+2022-05-31 15:38:30,807 DEBUG   SenderThread:143840 [sender.py:send():232] send: files
+2022-05-31 15:38:30,807 INFO    SenderThread:143840 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-05-31 15:38:30,820 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:38:30,821 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:38:30,824 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:38:30,824 INFO    HandlerThread:143840 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:38:30,869 INFO    Thread-7  :143840 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/files/conda-environment.yaml
+2022-05-31 15:38:30,869 INFO    Thread-7  :143840 [dir_watcher.py:_on_file_created():244] file/dir created: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/files/wandb-metadata.json
+2022-05-31 15:38:30,869 INFO    Thread-7  :143840 [dir_watcher.py:_on_file_created():244] file/dir created: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/files/output.log
+2022-05-31 15:38:30,890 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:38:30,890 INFO    HandlerThread:143840 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:38:31,170 DEBUG   SenderThread:143840 [sender.py:send():232] send: telemetry
+2022-05-31 15:38:31,170 DEBUG   SenderThread:143840 [sender.py:send():232] send: stats
+2022-05-31 15:38:31,924 INFO    Thread-11 :143840 [upload_job.py:push():132] Uploaded file /tmp/tmp46qilc3awandb/1z66nupv-wandb-metadata.json
+2022-05-31 15:38:32,870 INFO    Thread-7  :143840 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/files/output.log
+2022-05-31 15:38:36,127 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:38:36,127 INFO    HandlerThread:143840 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:38:36,152 DEBUG   SenderThread:143840 [sender.py:send():232] send: stats
+2022-05-31 15:38:36,872 INFO    Thread-7  :143840 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/files/output.log
+2022-05-31 15:38:46,173 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:38:46,173 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:38:54,880 INFO    Thread-7  :143840 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/files/config.yaml
+2022-05-31 15:39:01,526 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:39:01,527 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:39:16,814 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:39:16,814 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:39:32,146 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:39:32,146 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:39:47,414 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:39:47,415 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:40:03,028 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:40:03,029 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:40:18,331 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:40:18,331 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:40:33,663 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:40:33,663 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:40:49,115 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:40:49,115 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:41:04,409 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:41:04,409 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:41:19,720 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:41:19,720 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:41:35,024 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:41:35,025 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:41:50,386 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:41:50,387 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:42:05,747 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:42:05,747 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:42:21,025 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:42:21,026 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:42:36,363 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:42:36,364 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:42:45,732 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:42:45,732 INFO    HandlerThread:143840 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:42:45,879 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:42:45,879 INFO    HandlerThread:143840 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:42:45,936 DEBUG   SenderThread:143840 [sender.py:send():232] send: stats
+2022-05-31 15:42:51,722 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:42:51,722 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:42:58,309 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:42:58,309 INFO    HandlerThread:143840 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:42:58,310 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:42:58,311 INFO    HandlerThread:143840 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:42:58,313 DEBUG   SenderThread:143840 [sender.py:send():232] send: stats
+2022-05-31 15:43:01,938 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:43:01,938 INFO    HandlerThread:143840 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:43:01,939 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:43:01,939 INFO    HandlerThread:143840 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:43:01,944 DEBUG   SenderThread:143840 [sender.py:send():232] send: stats
+2022-05-31 15:43:05,285 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:43:05,285 INFO    HandlerThread:143840 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:43:07,086 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:43:07,087 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:43:07,996 INFO    Thread-7  :143840 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/files/output.log
+2022-05-31 15:43:09,441 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:43:09,441 INFO    HandlerThread:143840 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:43:09,499 DEBUG   SenderThread:143840 [sender.py:send():232] send: stats
+2022-05-31 15:43:11,998 INFO    Thread-7  :143840 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/files/output.log
+2022-05-31 15:43:22,444 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:43:22,445 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:43:37,812 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:43:37,813 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:43:53,266 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:43:53,267 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:44:08,542 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:44:08,542 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:44:24,389 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:44:24,390 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:44:39,657 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:44:39,657 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:44:54,927 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:44:54,927 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:45:10,188 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:45:10,189 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:45:25,539 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:45:25,539 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:45:40,900 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:45:40,901 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:45:52,426 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:45:52,426 INFO    HandlerThread:143840 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:45:52,497 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:45:52,497 INFO    HandlerThread:143840 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:45:52,529 DEBUG   SenderThread:143840 [sender.py:send():232] send: stats
+2022-05-31 15:45:54,072 INFO    Thread-7  :143840 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/files/output.log
+2022-05-31 15:45:56,173 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:45:56,174 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:45:58,186 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:45:58,186 INFO    HandlerThread:143840 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:45:58,253 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:45:58,254 INFO    HandlerThread:143840 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:45:58,289 DEBUG   SenderThread:143840 [sender.py:send():232] send: stats
+2022-05-31 15:46:03,414 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: resume
+2022-05-31 15:46:03,414 INFO    HandlerThread:143840 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-31 15:46:06,077 INFO    Thread-7  :143840 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/files/output.log
+2022-05-31 15:46:11,528 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-31 15:46:11,531 DEBUG   SenderThread:143840 [sender.py:send_request():246] send_request: stop_status
+2022-05-31 15:46:12,082 INFO    Thread-7  :143840 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/files/output.log
+2022-05-31 15:46:13,112 WARNING MainThread:143840 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-05-31 15:46:17,918 WARNING MainThread:143840 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2022-05-31 15:46:17,919 ERROR   MainThread:143840 [internal.py:wandb_internal():156] Internal process interrupted.
+2022-05-31 15:46:18,113 DEBUG   HandlerThread:143840 [handler.py:handle_request():141] handle_request: pause
+2022-05-31 15:46:18,113 INFO    HandlerThread:143840 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-31 15:46:18,166 INFO    HandlerThread:143840 [handler.py:finish():806] shutting down handler
+2022-05-31 15:46:18,278 INFO    WriterThread:143840 [datastore.py:close():279] close: /home/srd/Desktop/CV/INSTANCE22/wandb/run-20220531_153823-3ivrrx6c/run-3ivrrx6c.wandb
+2022-05-31 15:46:18,279 INFO    MainThread:143840 [internal.py:handle_exit():80] Internal process exited

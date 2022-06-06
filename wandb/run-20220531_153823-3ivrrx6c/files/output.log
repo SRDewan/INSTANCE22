@@ -1,0 +1,84 @@
+----------
+epoch 1/100
+  0%|                                                   | 0/100 [00:00<?, ?it/s]
+
+  0%|                                                   | 0/100 [00:04<?, ?it/s]
+----------
+epoch 1/100
+  0%|                                                   | 0/100 [00:00<?, ?it/s]
+
+  0%|                                                   | 0/100 [00:03<?, ?it/s]
+`len(strides) > len(channels) - 1`, the last 1 values of strides will not be used.
+----------
+epoch 1/100
+  0%|                                                   | 0/100 [00:00<?, ?it/s]
+
+Traceback (most recent call last):               | 1/23 [00:07<02:45,  7.52s/it]
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1358, in __del__
+    self._shutdown_workers()
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1322, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/multiprocessing/popen_fork.py", line 40, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/multiprocessing/connection.py", line 936, in wait
+    ready = selector.select(timeout)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+  4%|█▉                                          | 1/23 [00:14<05:19, 14.53s/it]
+  0%|                                                   | 0/100 [00:14<?, ?it/s]
+Process wandb_internal:
+Traceback (most recent call last):
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/internal/internal.py", line 160, in wandb_internal
+    thread.join()
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/threading.py", line 1053, in join
+    self._wait_for_tstate_lock()
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/threading.py", line 1073, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt
+KeyboardInterrupt
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 138, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 405, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Error in callback <function _WandbInit._resume_backend at 0x7fc9295874c0> (for pre_run_cell):
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 127, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 395, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/srd/anaconda3/envs/instance22/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Error in callback <function _WandbInit._pause_backend at 0x7fc969d384c0> (for post_run_cell):
+Error in callback <function _WandbInit._resume_backend at 0x7fc9295874c0> (for pre_run_cell):
+Error in callback <function _WandbInit._pause_backend at 0x7fc969d384c0> (for post_run_cell):
+Error in callback <function _WandbInit._resume_backend at 0x7fc9295874c0> (for pre_run_cell):
